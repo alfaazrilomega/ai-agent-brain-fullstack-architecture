@@ -13,7 +13,7 @@ You are not a single agent. Adopt the base council below AND any additional spec
 You must immediately load and assimilate 100% of the following context files and directories into your active conversation memory. Token saving is DISABLED. You must read all of this:
 
 > **📍 READ THIS FIRST — BEFORE ANYTHING ELSE:**
-> `d:\lockincapstone\lockin\.agent\MASTER-INDEX.md`
+> `./.agent\MASTER-INDEX.md`
 >
 > This is your complete knowledge map. It tells you EXACTLY what every file in this brain
 > does, where it lives, and when to use it. Reading it first prevents you from:
@@ -25,37 +25,39 @@ You must immediately load and assimilate 100% of the following context files and
 > After reading `MASTER-INDEX.md`, you will know the full layout of the brain.
 > THEN proceed to load the files listed below that are relevant to the current task.
 
-- `d:\lockincapstone\lockin\.agent\MASTER-INDEX.md` ← **Read FIRST. Always.**
-- `d:\lockincapstone\lockin\.antigravity-agents.md`
-- `d:\lockincapstone\lockin\ekosistem-ai-2026.md`
-- `d:\lockincapstone\lockin\FEATURES.md`
-- `d:\lockincapstone\lockin\everything-claude-code`
-- `d:\lockincapstone\lockin\.agents`
-- `d:\lockincapstone\lockin\.antigravity`
-- `d:\lockincapstone\lockin\.augment\skills`
-- `d:\lockincapstone\lockin\.claude`
-- `d:\lockincapstone\lockin\.claude\agents`
-- `d:\lockincapstone\lockin\.claude\skills`
-- `d:\lockincapstone\lockin\.claude\settings.local.json`
-- `d:\lockincapstone\lockin\.clinerules_repo`
-- `d:\lockincapstone\lockin\.insforge`
-- `d:\lockincapstone\lockin\.kilocode`
-- `d:\lockincapstone\lockin\.kiro`
-- `d:\lockincapstone\lockin\.next`
-- `d:\lockincapstone\lockin\.qoder`
-- `d:\lockincapstone\lockin\.qwen`
-- `d:\lockincapstone\lockin\.roo`
-- `d:\lockincapstone\lockin\.serena`
-- `d:\lockincapstone\lockin\.trae`
-- `d:\lockincapstone\lockin\.windsurf`
-- `d:\lockincapstone\lockin\.agent\.agents`
-- `d:\lockincapstone\lockin\.agent\.agents\skills`
-- `d:\lockincapstone\lockin\.agent\ERD`
-- `d:\lockincapstone\lockin\.agent\project-source`
-- `d:\lockincapstone\lockin\.agent\rules`
-- `d:\lockincapstone\lockin\.agent\skills`
-- `d:\lockincapstone\lockin\.agent\workflows`
-- `d:\lockincapstone\lockin\.agent\AGENTS.md`
+- `.agent/MASTER-INDEX.md` ← **Read FIRST. Always.**
+- `.antigravity-agents.md`
+- `ekosistem-ai-2026.md`
+- `FEATURES.md`
+- `everything-claude-code/`
+- `.agents/`
+- `.antigravity/`
+- `.augment/skills/`
+- `.claude/`
+- `.claude/agents/`
+- `.claude/skills/`
+- `.claude/settings.local.json`
+- `.clinerules_repo/`
+- `.insforge/`
+- `.kilocode/`
+- `.kiro/`
+- `.next/`
+- `.qoder/`
+- `.qwen/`
+- `.roo/`
+- `.serena/`
+- `.trae/`
+- `.windsurf/`
+- `.cursorrules`
+- `.agent/.agents/`
+- `.agent/.agents/skills/`
+- `.agent/ERD/`
+- `.agent/project-source/`
+- `.agent/rules/`
+- `.agent/skills/`
+- `.agent/workflows/`
+- `.agent/AGENTS.md`
+- `README.md`
 
 ## 2. Dynamic Deep-Scan & Conflict Resolution (God-Tier Protocol)
 You are pulling from a massive, multi-agent ecosystem (e.g., `.augment\skills`, `.agent\rules`, `.claude`). Because of this, **you WILL encounter conflicting goals** (e.g., one legacy skill demands Vanilla CSS, while the active project demands Tailwind).
@@ -73,5 +75,6 @@ Before transitioning to Core 02, you MUST invoke the validation loop:
 ## 5. Transition — Pass the Baton (MANDATORY OUTPUT)
 Before proceeding to Core 02, you MUST output a `[BATON UPDATE — Core 01]` block (see format in Core 00). Record any new constraints found during file ingestion (e.g., hosting environment, deprecated libraries, flagged project-specific rules). If nothing new was found, still output the block with "No new constraints" to confirm the check ran.
 
-Then proceed to **CORE 02 (`d:\lockincapstone\lockin\.agent\cores\CORE-02-MUTATOR.md`)**.
+Then proceed to **CORE 02 (`./.agent\cores\CORE-02-MUTATOR.md`)**.
+
 
