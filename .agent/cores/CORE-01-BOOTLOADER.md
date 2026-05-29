@@ -1,4 +1,4 @@
-﻿# CORE 01: THE BASE TRUTH BOOTLOADER
+# CORE 01: THE BASE TRUTH BOOTLOADER
 
 ### THE SIMULTANEOUS PERSONA COUNCIL (MANDATORY — MINIMUM 3, NO CEILING)
 
@@ -59,6 +59,24 @@ You must immediately load and assimilate 100% of the following context files and
 - `.agent/skills/`
 - `.agent/workflows/`
 - `.agent/AGENTS.md`
+
+## 1.5 Template Validation Check (MANDATORY — Run Before Section 2)
+
+> **🚨 CRITICAL:** This brain ships with several **template placeholder files**. Before ingesting any content, you MUST check if these files are still in their unpopulated template state. Treating placeholder content as real project data is a critical hallucination risk.
+
+**Template files to check on every boot:**
+
+| File / Folder | How to detect template state | Action Required |
+| :------------ | :--------------------------- | :-------------- |
+| `FEATURES.md` | Contains `[PLACEHOLDER]` text OR the `⚠️ TEMPLATE FILE` warning header | **HALT.** Notify user: _"Your `FEATURES.md` is still a template. Should I generate it from your project context, or will you fill it manually?"_ |
+| `.agent/ERD/` | Folder is empty OR contains only a `README` placeholder | **NOTIFY.** Ask user if they want to provide an ERD, schema file, or describe the database so AI can generate it. |
+| `.agent/project-source/` | Folder is empty OR contains only a `README` placeholder | **NOTIFY.** Ask user if they want to add a PRD, project brief, or any reference document. |
+
+**Resolution Rules:**
+- If `FEATURES.md` is a template → Do **NOT** infer features from code. Ask the user.
+- If user provides project context during the conversation → Generate the file content, confirm with user, then save it (replacing the template).
+- If user explicitly says "ignore it for now" → Proceed, but add `[FEATURES-UNPOPULATED]` flag to your Baton Update block.
+- **NEVER silently skip this check.** Even if empty, output: _"Template check passed — `FEATURES.md` and project folders are populated."_ OR _"⚠️ Template files detected — see above."_
 
 ## 2. Dynamic Deep-Scan & Conflict Resolution (God-Tier Protocol)
 
