@@ -1,5 +1,24 @@
+﻿# Next.js build output - not part of brain system
+.next/
+
+# Empty AI tool config folders (no content yet)
+.augment/
+.kilocode/
+.kiro/
+.qoder/
+.qwen/
+
+# Node modules
 node_modules/
-.env
+
+# OS files
 .DS_Store
-.tempmediaStorage/
-.gemini/
+Thumbs.db
+
+# Local env files
+.env
+.env.local
+.env*.local
+
+# Large reference repos (too big - referenced in README only)
+everything-claude-code/
