@@ -1,9 +1,15 @@
 {
-  "project_id": "7d357a71-b8a3-4f36-9f17-b09e9ad35b4c",
-  "project_name": "LockIn",
-  "org_id": "6878c4e7-3881-4324-bc5b-5653d4fe309a",
-  "appkey": "nib9r47x",
-  "region": "us-east",
-  "api_key": "ik_c632cbc12a5888e3fb9f77b35b4bb772",
-  "oss_host": "https://nib9r47x.us-east.insforge.app"
+  "_template": true,
+  "_note": "Replace this file with your actual InsForge project config. Run `insforge init` or fill manually.",
+  "projectId": "YOUR_PROJECT_ID",
+  "projectName": "your-project-name",
+  "region": "us-east-1",
+  "database": {
+    "type": "postgresql",
+    "schema": "public"
+  },
+  "auth": {
+    "enabled": true,
+    "providers": ["email"]
+  }
 }
