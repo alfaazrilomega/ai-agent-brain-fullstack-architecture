@@ -1,0 +1,13 @@
+# Override GitHub Linguist language classification
+# These files are development support, not the core system
+
+# Python helper scripts are not the primary content of this repo
+*.py linguist-detectable=false
+
+# The core brain system is Markdown — flag it as documentation
+*.md linguist-documentation=false
+*.md linguist-detectable=true
+
+# YAML and JSON config files
+*.yml linguist-detectable=false
+*.json linguist-detectable=false

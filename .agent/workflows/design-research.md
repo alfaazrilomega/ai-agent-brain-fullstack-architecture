@@ -46,7 +46,7 @@ Run this workflow **AUTOMATICALLY** (without user explicitly typing `/design-res
 Read and internalize the full SKILL before doing ANYTHING else:
 
 ```
-SKILL Location: D:\lockincapstone\lockin\.agent\skills\design-brain\SKILL.md
+SKILL Location: ./.agent/skills/design-brain/SKILL.md
 ```
 
 Follow the skill's 7 phases in order, with this critical timing rule:
@@ -162,4 +162,4 @@ If browser/internet access is unavailable:
 ---
 
 *Created: 2026-06-03 — LockIn Project Design Brain System*
-*Skill: D:\lockincapstone\lockin\.agent\skills\design-brain\SKILL.md*
+*Skill: ./.agent/skills/design-brain/SKILL.md*

@@ -1,4 +1,4 @@
-﻿# Next.js build output - not part of brain system
+# Next.js build output - not part of brain system
 .next/
 
 # Empty AI tool config folders (no content yet)
@@ -22,3 +22,6 @@ Thumbs.db
 
 # Large reference repos (too big - referenced in README only)
 everything-claude-code/
+
+# Local IDE/agent configs (machine-specific, not portable)
+.claude/settings.local.json

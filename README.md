@@ -8,7 +8,7 @@
 ![Tailwind](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
 ![GSAP](https://img.shields.io/badge/-GSAP-88CE02?logo=greensock&logoColor=white)
 
-> **Empathetic** | **Awwwards-Level Design** | **Hallucination Prevention** | **Universal IDE Support**
+> **Structured Context Injection** | **Awwwards-Level Design** | **Sequential Cognitive Verification** | **Universal IDE Support**
 
 ---
 
@@ -22,9 +22,9 @@ Not just prompts. A complete system: bootloaders, intent matrices, spatial desig
 
 | Superpower | What It Does |
 |-------|-------------------|
-| **Hallucination Prevention** | Uses a rigid `CORE` bootloader system. Forces the AI to trace exact DOM/code states before writing anything. |
+| **Structured Context Injection** | Uses a rigid `CORE` bootloader system that forces the AI to read project-specific rules, schemas (ERD), and requirements (PRD) before generating code. This significantly reduces errors from missing context — though it cannot eliminate all hallucinations, as these originate from the LLM itself. |
 | **Awwwards-Level Design** | Strips the AI of "flat" MVP tendencies. Enforces advanced spatial physics, 3D GSAP animations, and strict Grid Matrices (`INSTINCT-013`). |
-| **Dynamic Council Assembly** | Dynamically recruits "specialist personas" (UX Architect, Security Reviewer) based on your prompt keywords. |
+| **Sequential Cognitive Verification** | Before generating code, the AI is instructed to sequentially adopt multiple expert viewpoints (UX Architect, Security Reviewer, etc.) and inspect the solution from each angle — like a structured code-review board. This is a prompt-engineering technique, not literal multi-agent execution. |
 | **Autonomous Setup** | Provides a `/setup` workflow that automatically ingests your ERD, PRD, and codebase rules. |
 
 ---
@@ -90,6 +90,9 @@ If you prefer total manual control before the AI takes over:
 
 ## 🧠 Key Concepts
 
+### How It Actually Works
+This is a **markdown-based context injection system**. When you clone this repo into your project root, the `.agent/`, `.claude/`, `.cursorrules`, and other dotfiles are automatically loaded by your AI coding agent at session start. The agent reads these files as contextual instructions — similar to a senior engineer reading an onboarding document before writing code. The AI does not "learn" or retain memory between sessions; it re-reads these files every time.
+
 ### The Core Engine
 The `cores/` directory houses the foundational logic. The AI is forced to read the **Intent Matrix** and **Bootloader** to drop assumptions and ensure it fully understands the context before executing code.
 
@@ -98,6 +101,12 @@ Found in `skills/`, these dictate specific behaviors. For example, `INSTINCT-013
 
 ### Workflows
 Found in `workflows/`, these are executable step-by-step guides. The primary workflow is `/setup`, which bridges the gap between raw AI potential and project-specific alignment.
+
+### Limitations
+- **Not a hallucination-proof system.** Context injection reduces errors from missing information, but the underlying LLM can still generate incorrect code or make faulty assumptions.
+- **No empirical benchmarks yet.** Effectiveness is based on real-world iteration, not controlled experiments. We welcome contributions to formalize testing.
+- **Persona verification is prompt-engineering.** The "Council of Personas" is a sequential self-review technique, not actual multi-agent parallelism.
+- **Session-bound.** The AI re-reads all context files each session. There is no persistent cross-session memory beyond what is written to disk.
 
 ---
 

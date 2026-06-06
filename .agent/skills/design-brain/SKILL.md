@@ -41,7 +41,7 @@ This skill is a **step-by-step playbook**. Read it from top to bottom. Each phas
 **GOAL:** Understand what already exists so we don't redesign things that are already good.
 
 **ACTIONS:**
-1. Read the project's `design-system.md` (located at `D:\lockincapstone\lockin\design-system.md` or the `.agent` root)
+1. Read the project's `design-system.md` (located at `./design-system.md` or the `.agent/rules/` directory)
 2. Read `RULES.md` to confirm the tech stack, forbidden libraries, and coding conventions
 3. Identify the current component that needs changing (read the file if applicable)
 4. Note the existing color tokens, font families, and border-radius system

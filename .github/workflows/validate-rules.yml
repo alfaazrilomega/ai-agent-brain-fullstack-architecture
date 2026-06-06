@@ -1,0 +1,33 @@
+name: Validate Brain Pipeline
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.agent/**'
+      - '.antigravity-agents.md'
+      - '.cursorrules'
+      - '.claude/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - '.agent/**'
+      - '.antigravity-agents.md'
+      - '.cursorrules'
+      - '.claude/**'
+
+jobs:
+  validate:
+    name: Pipeline Integrity Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Pipeline Validator
+        run: node .agent/scripts/validate-pipeline.js
