@@ -1,0 +1,18 @@
+﻿{
+  "name": "ai-agent-brain-fullstack-architecture",
+  "owner": {
+    "name": "alfaazrilomega"
+  },
+  "description": "The cognitive architecture system for AI agent harnesses. Structured Context Injection, Awwwards-Level Design, and Universal IDE Support.",
+  "plugins": [
+    {
+      "name": "ai-agent-brain",
+      "description": "Fullstack AI Agent Brain & Multi-Core Cognitive Architecture with Senior Engineer persona, design intelligence, and fullstack instincts.",
+      "version": "1.0.0",
+      "author": {
+        "name": "alfaazrilomega"
+      },
+      "source": "./"
+    }
+  ]
+}
